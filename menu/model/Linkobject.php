@@ -1,6 +1,6 @@
 <?php
 //linkide koostamiseks vajalik klass
-require_once('Http.php');
+require_once('http.php');
 class Linkobject extends Http
 {
     var $baseUrl = false;
@@ -10,6 +10,7 @@ class Linkobject extends Http
     //add if exists
     //'sid'=>'sid'   - sid jaoks indeksi loomine
     var $aie = array('lang_id', 'sid'=>'sid', 'nocache');
+
     function LinkObject()
     {
         //pärime kõik Http klassi asjad

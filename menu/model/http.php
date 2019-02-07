@@ -1,5 +1,5 @@
 <?php
-class Http
+class http
 {
     var $vars = array(); //päringu requestile kaasantud muutujad kasutaja poolt
     var $cookie = array(); //cookiede hoidmiseks vajalik massiiv

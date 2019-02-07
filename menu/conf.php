@@ -26,9 +26,10 @@ define('DEFAULT_CONTROLLER', 'default'); //vaikimisi defineeritud tegevused
 //ennem tuleb valmistada loogikat, kuidas tegevus ülesehitada
 //selleks on eraldi fail - act.php
 //----------------------------------------
+
 //impordime vajalikud klassid
-require_once(MODEL_DIR.'Template.php');
-require_once(MODEL_DIR.'Http.php');
+require_once(MODEL_DIR.'template.php');
+require_once(MODEL_DIR.'http.php');
 require_once(MODEL_DIR.'Mysql.php');
 require_once(MODEL_DIR.'Linkobject.php');
 require_once(MODEL_DIR.'Session.php');

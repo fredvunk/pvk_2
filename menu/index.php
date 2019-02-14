@@ -22,12 +22,13 @@ require_once 'conf.php';
 $mainTmpl = new Template('main');
 
 $mainTmpl->set('title', 'Menu Application');
-$mainTmpl->set('page title', 'tartu KHK menu');
-$mainTmplContent = $mainTmpl->parse();
 
+$contentTmpl = new Template('content');
+
+$mainTmpl->set('content', $contentTmpl->parse());
+
+$mainTmplContent = $mainTmpl->parse();
 echo $mainTmplContent;
 
-//echo '<pre>';
-//print_r($mainTmpl);
-//echo '</pre>';
+
 ?>
